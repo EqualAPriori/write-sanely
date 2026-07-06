@@ -7,6 +7,7 @@ Personal writing skills for AI agents that need to produce clear, checkable, lon
 [![GitHub stars](https://img.shields.io/github/stars/EqualAPriori/write-sanely?style=social)](https://github.com/EqualAPriori/write-sanely/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
 
+<img src="assets/wealth-tax-three-examples-terminal-preview.png" alt="Terminal-style preview showing bad technical writing rewritten into checkable prose" width="900">
 
 </div>
 
@@ -14,7 +15,9 @@ Are you going crazy from reading all this AI **** on your linkedin or from your 
 
 This repo starts from a simple stance: people spend too much time trying to hide "AI writing" and not enough time fixing the fact that much AI writing is structurally bad writing to begin with. The deeper problem is not only overused phrases, em dashes, polished sameness, or other surface tells. In longer technical work, the prose often fails at its real job: helping an external reader understand the claim, evidence, mechanism, scope, and consequence. It spends more time performing writing and talking to itself than communicating to the reader.
 
-`write-sanely` is the main skill in this repo. It helps agents audit and revise prose so it reads as authored, specific, checkable, and natural, without turning the work into a shallow word-substitution pass.
+`write-sanely` is the main skill in this repo. It helps agents audit and revise prose so it is specific, checkable, natural, and actually says something, without simply doing a shallow word-substitution pass.
+
+Give this to you colleagues and your friends. You'll thank yourself for it. At this point this is not even about telling people to stop using AI to write. You know they're not going to. Just, for the love of ***, have AI write something that is worth your time.
 
 Note: a good base of the content here is taken from Conor Bronsdon's excellent [avoid-ai-writing](https://github.com/conorbronsdon/avoid-ai-writing) skill, but then reorganized and supplemented with my experience from reviewing other long form technical content written by AI that drove me mad.
 
