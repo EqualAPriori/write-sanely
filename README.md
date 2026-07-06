@@ -7,12 +7,13 @@ Personal writing skills for AI agents that need to produce clear, checkable, lon
 [![GitHub stars](https://img.shields.io/github/stars/EqualAPriori/write-sanely?style=social)](https://github.com/EqualAPriori/write-sanely/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
 
-<img src="assets/wealth-tax-three-examples-terminal-preview.png" alt="Terminal-style preview showing bad technical writing rewritten into checkable prose" width="900">
-
 </div>
 
 
 Are you going crazy from reading all this AI **** on your linkedin or from your colleagues? I know I am, and that this is only going to get worse in the near future. This is my little contribution to try to reclaim a bit of sanity from all this performative, crazy ai-writing that fails to communicate anything beyond, "The author didn't read this and it's not worth reading."
+
+<img src="assets/wealth-tax-three-examples-terminal-preview.png" alt="Terminal-style preview showing bad technical writing rewritten into checkable prose" width="900">
+
 
 This repo's stance is: people spend too much time trying to hide "AI writing" and not enough time fixing the fact that much AI writing is structurally bad writing to begin with. The deeper problem is not only overused phrases, em dashes, polished sameness, or other surface tells. In longer technical work, the prose often fails at its real job: helping an external reader understand the claim, evidence, mechanism, scope, and consequence. It spends more time performing writing and talking to itself than communicating to the reader.
 
