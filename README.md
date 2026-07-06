@@ -8,6 +8,9 @@ This repo starts from a simple stance: people spend too much time trying to hide
 
 `write-sanely` is the main skill in this repo. It helps agents audit and revise prose so it reads as authored, specific, checkable, and natural, without turning the work into a shallow word-substitution pass.
 
+Note: a good base of the content here is taken from Conor Bronsdon's excellent [avoid-ai-writing](https://github.com/conorbronsdon/avoid-ai-writing) skill, but then reorganized and supplemented with my experience from reviewing other long form technical content written by AI that drove me mad.
+
+
 ## What It Optimizes For
 
 - Writing for a cold external reader, not for the author, the agent, or an internal draft history.
