@@ -1,4 +1,11 @@
+<div align="center">
+
 # write-sanely
+
+Audit & rewrite content to remove AI writing patterns. A practical skill for any AI agent. Supports detect-only and edit-in-place modes, plus voice profiles.
+
+[![GitHub stars](https://img.shields.io/github/stars/EqualAPriori/write-sanely?style=social)](https://github.com/EqualAPriori/write-sanely/stargazers)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
 
 Personal writing skills for AI agents that need to produce clear, checkable, long-form technical prose.
 
@@ -9,6 +16,8 @@ This repo starts from a simple stance: people spend too much time trying to hide
 `write-sanely` is the main skill in this repo. It helps agents audit and revise prose so it reads as authored, specific, checkable, and natural, without turning the work into a shallow word-substitution pass.
 
 Note: a good base of the content here is taken from Conor Bronsdon's excellent [avoid-ai-writing](https://github.com/conorbronsdon/avoid-ai-writing) skill, but then reorganized and supplemented with my experience from reviewing other long form technical content written by AI that drove me mad.
+
+</div>
 
 
 ## What It Optimizes For
