@@ -48,15 +48,35 @@ write-sanely/
 
 ## Use With Agents
 
-This repo is meant to be portable. The simplest installation pattern is to clone the repo and place or symlink `write-sanely/` into your agent's skills directory.
+You can install this repo/skill with the public `skills` installer or symlink it manually.
 
-For agents supported by `skills.sh`, install directly from the skill directory:
+### Install With `skills`
+
+`npx` temporarily runs the public `skills` installer from [skills.sh](https://skills.sh/). The installer fetches this GitHub repo, finds `write-sanely/SKILL.md`, and installs or symlinks the skill into the agent you choose.
+
+Cursor:
 
 ```sh
-npx -y skills@latest add EqualAPriori/write-sanely/write-sanely
+npx -y skills@latest add EqualAPriori/write-sanely --skill write-sanely -g -a cursor
+```
+
+Claude Code:
+
+```sh
+npx -y skills@latest add EqualAPriori/write-sanely --skill write-sanely -g -a claude-code
+```
+
+All supported agents:
+
+```sh
+npx -y skills@latest add EqualAPriori/write-sanely --skill write-sanely -g -a '*'
 ```
 
 The `package.json` in this repo is for validation and release tooling only. It is not the runtime install path for the skill.
+
+### Manual Install
+
+Clone this repo, then place or symlink `write-sanely/` into your agent's skills directory. This is useful for unsupported agents or local development.
 
 Cursor:
 
