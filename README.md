@@ -2,12 +2,11 @@
 
 # write-sanely
 
-Audit & rewrite content to remove AI writing patterns. A practical skill for any AI agent. Supports detect-only and edit-in-place modes, plus voice profiles.
+Personal writing skills for AI agents that need to produce clear, checkable, long-form technical prose.
 
 [![GitHub stars](https://img.shields.io/github/stars/EqualAPriori/write-sanely?style=social)](https://github.com/EqualAPriori/write-sanely/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
 
-Personal writing skills for AI agents that need to produce clear, checkable, long-form technical prose.
 
 </div>
 
