@@ -5,7 +5,8 @@
 Personal writing skills for AI agents that need to produce clear, checkable, long-form technical prose.
 
 [![GitHub stars](https://img.shields.io/github/stars/EqualAPriori/write-sanely?style=social)](https://github.com/EqualAPriori/write-sanely/stargazers)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
+[![CI](https://github.com/EqualAPriori/write-sanely/actions/workflows/ci.yml/badge.svg)](https://github.com/EqualAPriori/write-sanely/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE.md)
 
 </div>
 
@@ -49,6 +50,14 @@ write-sanely/
 
 This repo is meant to be portable. The simplest installation pattern is to clone the repo and place or symlink `write-sanely/` into your agent's skills directory.
 
+For agents supported by `skills.sh`, install directly from the skill directory:
+
+```sh
+npx -y skills@latest add EqualAPriori/write-sanely/write-sanely
+```
+
+The `package.json` in this repo is for validation and release tooling only. It is not the runtime install path for the skill.
+
 Cursor:
 
 ```sh
@@ -78,6 +87,17 @@ ln -s "$(pwd)/write-sanely" ~/.hermes/skills/writing/write-sanely
 ```
 
 If your agent does not support skills directly, paste or reference `write-sanely/SKILL.md` in the agent's project instructions and tell it to follow the module router.
+
+## Development
+
+Install tooling dependencies and run the skill/package validator:
+
+```sh
+npm install
+npm run validate
+```
+
+The validator checks `write-sanely/SKILL.md` frontmatter, local Markdown links, and module references. CI runs the same validation on pull requests and `main`.
 
 ## Example Requests
 

@@ -1,11 +1,11 @@
 ---
-name: write-like-a-human
+name: write-sanely
 description: Audit and revise prose so it reads as authored, specific, checkable, and natural rather than AI-generated or over-polished. Use when asked to make writing sound human, remove AI-isms, clean up machine-written prose, improve technical or scientific writing, revise captions, reduce self-commentary, or rewrite in a particular human voice.
 version: 1.0.0
 license: MIT
 ---
 
-# Write Like a Human
+# write-sanely
 
 Use this skill to audit, rewrite, or edit prose that feels machine-generated, over-polished, self-explaining, vague, or hard to verify.
 
